@@ -113,8 +113,6 @@ function ubah($data)
         $gambar = upload();
     }
 
-    // $gambar = htmlspecialchars($data["gambar"]);
-
     //* query insert data
     $query = "UPDATE mahasiswa SET
         nama = '$nama',
