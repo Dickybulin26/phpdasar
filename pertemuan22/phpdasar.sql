@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2024 at 06:15 PM
+-- Generation Time: May 31, 2024 at 03:46 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -56,7 +56,7 @@ INSERT INTO `mahasiswa` (`id`, `nama`, `nim`, `email`, `jurusan`, `gambar`) VALU
 (15, 'bambang', '857365910', 'bambang@gmail.com', 'DKV', 'gambar10.jpg'),
 (16, 'Robby', '9275284675', 'robby@gmail.com', 'TB', '66499e1cb6bac.png'),
 (17, 'Syarif', '928573875', 'syarif@gmail.com', 'TB', '664a0839c0603.jpg'),
-(18, 'julian', '5651425468', 'julian@gmail.com', 'RPL', '664ab508c1084.jpeg');
+(18, 'julian dini', '5651425468', 'julian@gmail.com', 'RPL', '664ab508c1084.jpeg');
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `user`

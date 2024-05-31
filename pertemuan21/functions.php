@@ -1,7 +1,9 @@
 <?php
 
 //* koneksi ke database
-$db = mysqli_connect('localhost', 'root', '', 'phpdasar');
+// $db = mysqli_connect('localhost', 'root', '', 'phpdasar');
+$db = mysqli_connect('sql302.infinityfree.com', 'if0_36609024', 'DickyBulin26', 'if0_36609024_phpdasar');
+
 
 function query($query)
 {
